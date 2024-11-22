@@ -11,8 +11,3 @@ resource "aws_instance" "public_instance" {
     Name = var.name_tag
   }
 }
-
-# Output the EC2 instance ID
-output "ec2_instance_id" {
-  value = aws_instance.public_instance.id
-}

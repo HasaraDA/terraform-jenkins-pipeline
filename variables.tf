@@ -44,7 +44,7 @@ variable "subnet_id" {
 variable "security_group_id" {
   description = "The Security Group ID to associate with the EC2 instance"
   type        = string
-  default     = ""  # If you have a specific security group, provide the ID here
+  default     = "sg-07d01c4aa4a3000fb"  # Default security group ID provided
 }
 
 variable "key_name" {
